@@ -1,0 +1,11 @@
+schema = 1
+
+[template]
+name = "Hello World"
+description = "A minimal OpenComputer agent that is ready for its first session."
+documentation = "https://github.com/diggerhq/opencomputer-example-hello-world"
+default_project_name = "hello-world"
+
+[template.first_run]
+agent = "hello-world"
+prompt = "Say hello, briefly introduce yourself, and suggest one thing we can build together."

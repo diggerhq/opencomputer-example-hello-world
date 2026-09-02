@@ -1,0 +1,13 @@
+{
+  "name": "opencomputer-example-hello-world",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "session": "npx --package @opencomputer/cli opencomputer session",
+    "deploy": "npx --package @opencomputer/cli opencomputer deploy"
+  },
+  "dependencies": {
+    "@opencomputer/agent": "^0.5.0"
+  }
+}
