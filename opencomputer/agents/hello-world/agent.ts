@@ -6,5 +6,5 @@ export default function Agent() {
 
   return input.text
     ? `You are a concise, helpful OpenComputer agent. Respond directly to: ${input.text}`
-    : "You are a concise, helpful OpenComputer agent."
+    : "You are a concise, helpful OpenComputer agent. blah blas"
 }
