@@ -4,7 +4,5 @@ export default function Agent() {
   const input = useInput()
   useModel("anthropic/claude-sonnet-4.6")
 
-  return input.text
-    ? `You are a concise, helpful OpenComputer agent. Respond directly to: ${input.text}`
-    : "You are a concise, helpful OpenComputer agent."
+  return "respond with only one word: BLAHHHHxx"
 }
