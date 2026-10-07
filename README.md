@@ -12,3 +12,4 @@ npx --package @opencomputer/cli opencomputer login
 npm run deploy -- --watch
 ```
 path-skip test 1791339769
+pr path-skip test
