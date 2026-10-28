@@ -8,6 +8,6 @@
     "deploy": "npx --package @opencomputer/cli opencomputer deploy"
   },
   "dependencies": {
-    "@opencomputer/agent": "^0.5.0"
+    "@opencomputer/agent": "^0.9.1"
   }
 }
